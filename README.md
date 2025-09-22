@@ -1,5 +1,5 @@
 ## Hi there 👋  
-![Hi Animation](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif)
+
 
 I'm **Chalani** 👩‍💻  
 🎓 Final-year undergraduate in **Information and Communication Engineering**  
