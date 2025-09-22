@@ -24,11 +24,10 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          background_color: "#000000" # Black background
-          fill_color: "#FF69B4"       # Pacman - hot pink
-          empty_color: "#1C1C1C"      # Empty squares - dark gray to blend with black
-          ghost_color: "#FFB6C1"      # Ghosts - light pink
-          dot_color: "#FFC0CB"        # Dots - classic pink
+          fill_color: "#FF69B4"   # Pacman - hot pink
+          empty_color: "#000000"  # Empty squares - black (acts as background)
+          ghost_color: "#FFB6C1"  # Ghosts - light pink
+          dot_color: "#FFC0CB"    # Dots - classic pink
 
       - name: Push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
