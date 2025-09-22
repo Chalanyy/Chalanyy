@@ -2,8 +2,8 @@
 
 I'm **Chalani** 👩‍💻  
 🎓 Final-year undergraduate in **Information and Communication Engineering**  
-💻 Skilled in **Python | Django | Flutter **  
-🚀 Interests: **AI, Data-Driven Apps, Web Development **  
+💻 Skilled in **Python | Django | Flutter**  
+🚀 Interests: **AI, Data-Driven Apps, Web Development**  
 🌱 Lifelong learner, currently exploring **AI-powered solutions & system design**  
 
 ---
