@@ -1,6 +1,5 @@
 ## Hi there 👋  
 
-
 I'm **Chalani** 👩‍💻  
 🎓 Final-year undergraduate in **Information and Communication Engineering**  
 💻 Skilled in **Python | Django | Flutter**  
@@ -27,6 +26,36 @@ I'm **Chalani** 👩‍💻
 
 ---
 
+### Skills Visuals
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python" height="60" alt="python logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=django" height="60" alt="django logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=flutter" height="60" alt="flutter logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="60" alt="javascript logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=html" height="60" alt="html5 logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=css" height="60" alt="css3 logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=c" height="60" alt="c logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="aws logo" />
+</div>
+
+---
+
+### Social
+<div align="center">
+  <a href="https://www.linkedin.com/in/chalani-samarakoon-307241281">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&style=for-the-badge" height="25" alt="linkedin logo" />
+  </a>
+</div>
+
+---
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Chalanyy&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Chalanyy&theme=dark&hide_border=false)<br/>
@@ -36,4 +65,10 @@ I'm **Chalani** 👩‍💻
 
 [![](https://visitcount.itsvg.in/api?id=Chalanyy&icon=0&color=10)](https://visitcount.itsvg.in)  
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chalanyy/Chalanyy/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chalanyy/Chalanyy/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Chalanyy/Chalanyy/output/pacman-contribution-graph.svg">
+</picture>
