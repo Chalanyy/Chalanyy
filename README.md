@@ -64,6 +64,7 @@ I'm **Chalani** 👩‍💻
 ---
 
 [![](https://visitcount.itsvg.in/api?id=Chalanyy&icon=0&color=10)](https://visitcount.itsvg.in)  
+![Pac-Man Graph](https://raw.githubusercontent.com/Chalanyy/Chalanyy/output/pacman-contribution-graph.svg)
 
 ---
 
