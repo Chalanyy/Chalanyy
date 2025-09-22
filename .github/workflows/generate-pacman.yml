@@ -3,14 +3,13 @@ name: Generate pacman animation
 on:
   schedule:       # runs every 12 hours
     - cron: "0 */12 * * *"
-  workflow_dispatch: # allows manual runs from the Actions tab
+  workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
   generate:
-    # Give write permission so the job can push the generated files
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -25,13 +24,16 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           fill_color: "#FF69B4"   # Pacman - hot pink
-          empty_color: "#000000"  # Empty squares - black (for blending)
+          empty_color: "#000000"  # Empty squares black (to blend with bg)
           ghost_color: "#FFB6C1"  # Ghosts - light pink
-          dot_color: "#FFC0CB"    # Dots - classic pink
+          dot_color: "#FFFFFF"    # Dots - white (visible on black)
 
       - name: Force black background in SVG
         run: |
-          sed -i 's/fill="white"/fill="black"/g' dist/pacman-contribution-graph.svg
+          # Change white background to black inside the SVG
+          sed -i 's/fill="white"/fill="black"/g' dist/pacman-contribution-graph.svg || true
+          sed -i 's/background-color:white/background-color:black/g' dist/pacman-contribution-graph.svg || true
+          sed -i 's/rect width="100%" height="100%" fill="white"/rect width="100%" height="100%" fill="black"/g' dist/pacman-contribution-graph.svg || true
 
       - name: Push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
